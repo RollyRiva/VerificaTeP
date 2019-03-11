@@ -22,17 +22,17 @@ public class VerificaTep {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         String patheth="Link.xml";
-        List links = null;
+        String patheth="Link.xml";
+        List vini = null;
         Parser dom = new Parser();
         try {
-            links = dom.parseDocument(patheth);
+            vini = dom.parseDocument(patheth);
         } catch (ParserConfigurationException | SAXException | IOException exception) {
             System.out.println("Errore!");
         }
         // iterazione della lista e visualizzazione degli oggetti
-        System.out.println("Numero di libri: " + links.size());
-        Iterator iterator = links.iterator();
+        System.out.println("Numero di libri: " + vini.size());
+        Iterator iterator = vini.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next().toString());
         }

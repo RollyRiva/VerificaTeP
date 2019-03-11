@@ -8,10 +8,10 @@ import org.xml.sax.SAXException;
 
 public class Parser {
 
-    private List libri;
+    private List vini;
 
     public Parser() {
-        libri = new ArrayList();
+        vini = new ArrayList();
     }
 
     public List parseDocument(String filename)
@@ -21,30 +21,35 @@ public class Parser {
         Document document;
         Element root, element;
         NodeList nodelist;
-        Link lin;
+        Vino vino;
         // creazione dell’albero DOM dal documento XML
         factory = DocumentBuilderFactory.newInstance();
         builder = factory.newDocumentBuilder();
         document = builder.parse(filename);
         root = document.getDocumentElement();
         // generazione della lista degli elementi "libro"
-        nodelist = root.getElementsByTagName("a");
+        nodelist = root.getElementsByTagName("row");
         if (nodelist != null && nodelist.getLength() > 0) {
             for (int i = 0; i < nodelist.getLength(); i++) {
                 element = (Element)nodelist.item(i);
-                Link l = getLink(element);
-                libri.add(l);
+                Vino l = getVino(element);
+                vini.add(l);
             }
         }
-        return libri;
+        return vini;
     }
 
-    private Link getLink(Element element) {
-        Link l;
-        String path = element.getAttribute("href");
-        String link = getTextValue(element);
-        l = new Link(path,link);
-        return l;
+    private Vino getVino(Element element) {
+        Vino v;
+        String anno=getTextValue(element);
+        String regione=getTextValue(element);
+        String codice=getTextValue(element);
+        String doc=getTextValue(element);
+        String igt=getTextValue(element);
+        String daTavola=getTextValue(element);
+        String totale=getTextValue(element);
+        v = new Vino(anno,regione,codice,doc,igt,daTavola,totale);
+        return v;
     }
     
     // restituisce il valore testuale dell’elemento figlio specificato
