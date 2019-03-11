@@ -1,23 +1,25 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <rows>
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Piemonte"</regione>
 <codice name="codice">"01"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">2262418</d_o_c__e_d_o_c_g_>
-<i_g_t_ name="I.G.T."/>
+<i_g_t_ name="I.G.T."></i_g_t_>
 <da_tavola name="Da tavola">420283</da_tavola>
 <totale name="Totale">2682701</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
-<regione name="Regione">"Valle d'Aosta/VallÃ©e d'Aoste"</regione>
+<regione name="Regione">"Valle d&apos;Aosta/Vallée d&apos;Aoste"</regione>
 <codice name="codice">"02"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">17000</d_o_c__e_d_o_c_g_>
-<i_g_t_ name="I.G.T."/>
+<i_g_t_ name="I.G.T."></i_g_t_>
 <da_tavola name="Da tavola">3300</da_tavola>
 <totale name="Totale">20300</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Lombardia"</regione>
@@ -27,6 +29,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">202314</da_tavola>
 <totale name="Totale">1313246</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Trentino-Alto Adige"</regione>
@@ -36,6 +39,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">10068</da_tavola>
 <totale name="Totale">1112862</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Veneto"</regione>
@@ -45,15 +49,17 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1452661</da_tavola>
 <totale name="Totale">8569322</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Friuli-Venezia Giulia"</regione>
 <codice name="codice">"06"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">545753</d_o_c__e_d_o_c_g_>
 <i_g_t_ name="I.G.T.">721625</i_g_t_>
-<da_tavola name="Da tavola"/>
+<da_tavola name="Da tavola"></da_tavola>
 <totale name="Totale">1267378</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Liguria"</regione>
@@ -63,6 +69,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">29133</da_tavola>
 <totale name="Totale">76568</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Emilia-Romagna"</regione>
@@ -72,6 +79,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1834070</da_tavola>
 <totale name="Totale">5803382</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Toscana"</regione>
@@ -81,6 +89,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">445784</da_tavola>
 <totale name="Totale">2495423</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Umbria"</regione>
@@ -90,6 +99,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">219450</da_tavola>
 <totale name="Totale">859600</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Marche"</regione>
@@ -99,6 +109,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">123734</da_tavola>
 <totale name="Totale">741233</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Lazio"</regione>
@@ -108,6 +119,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">560284</da_tavola>
 <totale name="Totale">1205117</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Abruzzo"</regione>
@@ -117,15 +129,17 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">901390</da_tavola>
 <totale name="Totale">2212660</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Molise"</regione>
 <codice name="codice">"14"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">149889</d_o_c__e_d_o_c_g_>
-<i_g_t_ name="I.G.T."/>
+<i_g_t_ name="I.G.T."></i_g_t_>
 <da_tavola name="Da tavola">105201</da_tavola>
 <totale name="Totale">255090</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Campania"</regione>
@@ -135,6 +149,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1278384</da_tavola>
 <totale name="Totale">1726371</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Puglia"</regione>
@@ -144,6 +159,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">2345000</da_tavola>
 <totale name="Totale">5342000</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Basilicata"</regione>
@@ -153,6 +169,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">79601</da_tavola>
 <totale name="Totale">112590</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Calabria"</regione>
@@ -162,6 +179,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">210177</da_tavola>
 <totale name="Totale">302262</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Sicilia"</regione>
@@ -171,6 +189,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1513370</da_tavola>
 <totale name="Totale">4047496</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Sardegna"</regione>
@@ -180,6 +199,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">244359</da_tavola>
 <totale name="Totale">486052</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Bolzano/Bozen"</regione>
@@ -189,6 +209,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">5018</da_tavola>
 <totale name="Totale">271161</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Trento"</regione>
@@ -198,6 +219,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">5050</da_tavola>
 <totale name="Totale">841701</totale>
 </row>
+
 <row>
 <anno name="Anno">"2011"</anno>
 <regione name="Regione">"Italia"</regione>
@@ -207,6 +229,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">11978563</da_tavola>
 <totale name="Totale">40631653</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Piemonte"</regione>
@@ -216,15 +239,17 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">317952</da_tavola>
 <totale name="Totale">2365548</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
-<regione name="Regione">"Valle d'Aosta/VallÃ©e d'Aoste"</regione>
+<regione name="Regione">"Valle d&apos;Aosta/Vallée d&apos;Aoste"</regione>
 <codice name="codice">"02"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">16000</d_o_c__e_d_o_c_g_>
 <i_g_t_ name="I.G.T.">0</i_g_t_>
 <da_tavola name="Da tavola">800</da_tavola>
 <totale name="Totale">16800</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Lombardia"</regione>
@@ -234,6 +259,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">192671</da_tavola>
 <totale name="Totale">1221510</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Trentino-Alto Adige"</regione>
@@ -243,6 +269,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">15238</da_tavola>
 <totale name="Totale">1209620</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Veneto"</regione>
@@ -252,6 +279,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1005999</da_tavola>
 <totale name="Totale">7547104</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Friuli-Venezia Giulia"</regione>
@@ -261,6 +289,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">3671</da_tavola>
 <totale name="Totale">1280978</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Liguria"</regione>
@@ -270,6 +299,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">4993</da_tavola>
 <totale name="Totale">46020</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Emilia-Romagna"</regione>
@@ -279,6 +309,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1800362</da_tavola>
 <totale name="Totale">5643085</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Toscana"</regione>
@@ -288,6 +319,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">111801</da_tavola>
 <totale name="Totale">2097621</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Umbria"</regione>
@@ -297,6 +329,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">165708</da_tavola>
 <totale name="Totale">636691</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Marche"</regione>
@@ -306,6 +339,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">399659</da_tavola>
 <totale name="Totale">917740</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Lazio"</regione>
@@ -315,6 +349,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">382004</da_tavola>
 <totale name="Totale">1364522</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Abruzzo"</regione>
@@ -324,6 +359,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1041956</da_tavola>
 <totale name="Totale">2365146</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Molise"</regione>
@@ -333,6 +369,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">131665</da_tavola>
 <totale name="Totale">319260</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Campania"</regione>
@@ -342,6 +379,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1089490</da_tavola>
 <totale name="Totale">1542075</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Puglia"</regione>
@@ -351,6 +389,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1295000</da_tavola>
 <totale name="Totale">4097000</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Basilicata"</regione>
@@ -360,6 +399,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">119270</da_tavola>
 <totale name="Totale">188957</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Calabria"</regione>
@@ -369,6 +409,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">204701</da_tavola>
 <totale name="Totale">399571</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Sicilia"</regione>
@@ -378,6 +419,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1311820</da_tavola>
 <totale name="Totale">4502602</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Sardegna"</regione>
@@ -387,6 +429,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">98223</da_tavola>
 <totale name="Totale">503460</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Bolzano/Bozen"</regione>
@@ -396,6 +439,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">6641</da_tavola>
 <totale name="Totale">442881</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Trento"</regione>
@@ -405,6 +449,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">8597</da_tavola>
 <totale name="Totale">766739</totale>
 </row>
+
 <row>
 <anno name="Anno">"2012"</anno>
 <regione name="Regione">"Italia"</regione>
@@ -414,6 +459,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">9692983</da_tavola>
 <totale name="Totale">38265310</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Piemonte"</regione>
@@ -423,15 +469,17 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">205685</da_tavola>
 <totale name="Totale">2579534</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
-<regione name="Regione">"Valle d'Aosta/VallÃ©e d'Aoste"</regione>
+<regione name="Regione">"Valle d&apos;Aosta/Vallée d&apos;Aoste"</regione>
 <codice name="codice">"02"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">18500</d_o_c__e_d_o_c_g_>
 <i_g_t_ name="I.G.T.">0</i_g_t_>
 <da_tavola name="Da tavola">1363</da_tavola>
 <totale name="Totale">19863</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Lombardia"</regione>
@@ -441,6 +489,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">178968</da_tavola>
 <totale name="Totale">1300558</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Trentino-Alto Adige"</regione>
@@ -450,6 +499,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">16696</da_tavola>
 <totale name="Totale">1361620</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Veneto"</regione>
@@ -459,6 +509,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">904984</da_tavola>
 <totale name="Totale">8989282</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Friuli-Venezia Giulia"</regione>
@@ -468,6 +519,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">3075</da_tavola>
 <totale name="Totale">1072974</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Liguria"</regione>
@@ -477,6 +529,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">5684</da_tavola>
 <totale name="Totale">45737</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Emilia-Romagna"</regione>
@@ -486,6 +539,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">2378746</da_tavola>
 <totale name="Totale">6716950</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Toscana"</regione>
@@ -495,6 +549,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">141635</da_tavola>
 <totale name="Totale">2657368</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Umbria"</regione>
@@ -504,6 +559,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">144700</da_tavola>
 <totale name="Totale">901290</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Marche"</regione>
@@ -513,6 +569,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">490200</da_tavola>
 <totale name="Totale">1038969</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Lazio"</regione>
@@ -522,6 +579,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">457330</da_tavola>
 <totale name="Totale">1551531</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Abruzzo"</regione>
@@ -531,6 +589,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1281830</da_tavola>
 <totale name="Totale">2648970</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Molise"</regione>
@@ -540,6 +599,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">131665</da_tavola>
 <totale name="Totale">319260</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Campania"</regione>
@@ -549,6 +609,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1178240</da_tavola>
 <totale name="Totale">1644077</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Puglia"</regione>
@@ -558,6 +619,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1991288</da_tavola>
 <totale name="Totale">4965478</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Basilicata"</regione>
@@ -567,6 +629,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">112175</da_tavola>
 <totale name="Totale">177717</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Calabria"</regione>
@@ -576,6 +639,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">200156</da_tavola>
 <totale name="Totale">368367</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Sicilia"</regione>
@@ -585,6 +649,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1810015</da_tavola>
 <totale name="Totale">6241546</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Sardegna"</regione>
@@ -594,6 +659,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">320806</da_tavola>
 <totale name="Totale">638320</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Bolzano/Bozen"</regione>
@@ -603,6 +669,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">5665</da_tavola>
 <totale name="Totale">377800</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Trento"</regione>
@@ -612,6 +679,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">11031</da_tavola>
 <totale name="Totale">983820</totale>
 </row>
+
 <row>
 <anno name="Anno">"2013"</anno>
 <regione name="Regione">"Italia"</regione>
@@ -621,6 +689,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">11955242</da_tavola>
 <totale name="Totale">45239411</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Piemonte"</regione>
@@ -630,15 +699,17 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">251708</da_tavola>
 <totale name="Totale">2401988</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
-<regione name="Regione">"Valle d'Aosta/VallÃ©e d'Aoste"</regione>
+<regione name="Regione">"Valle d&apos;Aosta/Vallée d&apos;Aoste"</regione>
 <codice name="codice">"02"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">13600</d_o_c__e_d_o_c_g_>
 <i_g_t_ name="I.G.T.">0</i_g_t_>
 <da_tavola name="Da tavola">900</da_tavola>
 <totale name="Totale">14500</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Lombardia"</regione>
@@ -648,6 +719,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">170146</da_tavola>
 <totale name="Totale">1423953</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Trentino-Alto Adige"</regione>
@@ -657,6 +729,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">7803</da_tavola>
 <totale name="Totale">1029330</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Veneto"</regione>
@@ -666,6 +739,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">476031</da_tavola>
 <totale name="Totale">8176926</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Friuli-Venezia Giulia"</regione>
@@ -675,6 +749,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">150831</da_tavola>
 <totale name="Totale">1367021</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Liguria"</regione>
@@ -684,6 +759,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">8262</da_tavola>
 <totale name="Totale">62709</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Emilia-Romagna"</regione>
@@ -693,6 +769,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">2236808</da_tavola>
 <totale name="Totale">6334309</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Toscana"</regione>
@@ -702,6 +779,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">126569</da_tavola>
 <totale name="Totale">2777594</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Umbria"</regione>
@@ -711,6 +789,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">87220</da_tavola>
 <totale name="Totale">670001</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Marche"</regione>
@@ -720,6 +799,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">418250</da_tavola>
 <totale name="Totale">915467</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Lazio"</regione>
@@ -729,6 +809,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">366720</da_tavola>
 <totale name="Totale">1284445</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Abruzzo"</regione>
@@ -738,6 +819,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">960729</da_tavola>
 <totale name="Totale">2224112</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Molise"</regione>
@@ -747,6 +829,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">122455</da_tavola>
 <totale name="Totale">296915</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Campania"</regione>
@@ -756,6 +839,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">813216</da_tavola>
 <totale name="Totale">1182538</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Puglia"</regione>
@@ -765,6 +849,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">2224510</da_tavola>
 <totale name="Totale">4593000</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Basilicata"</regione>
@@ -774,6 +859,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">63150</da_tavola>
 <totale name="Totale">102476</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Calabria"</regione>
@@ -783,6 +869,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">162055</da_tavola>
 <totale name="Totale">313543</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Sicilia"</regione>
@@ -792,6 +879,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1142868</da_tavola>
 <totale name="Totale">3824390</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Sardegna"</regione>
@@ -801,6 +889,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">126016</da_tavola>
 <totale name="Totale">746214</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Bolzano/Bozen"</regione>
@@ -810,6 +899,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">3403</da_tavola>
 <totale name="Totale">293330</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Trento"</regione>
@@ -819,6 +909,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">4400</da_tavola>
 <totale name="Totale">736000</totale>
 </row>
+
 <row>
 <anno name="Anno">"2014"</anno>
 <regione name="Regione">"Italia"</regione>
@@ -828,6 +919,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">9916247</da_tavola>
 <totale name="Totale">39741431</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Piemonte"</regione>
@@ -837,15 +929,17 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">428951</da_tavola>
 <totale name="Totale">2549079</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
-<regione name="Regione">"Valle d'Aosta/VallÃ©e d'Aoste"</regione>
+<regione name="Regione">"Valle d&apos;Aosta/Vallée d&apos;Aoste"</regione>
 <codice name="codice">"02"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">16600</d_o_c__e_d_o_c_g_>
 <i_g_t_ name="I.G.T.">0</i_g_t_>
 <da_tavola name="Da tavola">4100</da_tavola>
 <totale name="Totale">20700</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Lombardia"</regione>
@@ -855,6 +949,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">157362</da_tavola>
 <totale name="Totale">1473021</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Trentino-Alto Adige"</regione>
@@ -864,6 +959,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">9073</da_tavola>
 <totale name="Totale">1213028</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Veneto"</regione>
@@ -873,6 +969,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">903972</da_tavola>
 <totale name="Totale">10144754</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Friuli-Venezia Giulia"</regione>
@@ -882,6 +979,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">489410</da_tavola>
 <totale name="Totale">1856412</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Liguria"</regione>
@@ -891,6 +989,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">29353</da_tavola>
 <totale name="Totale">69402</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Emilia-Romagna"</regione>
@@ -900,6 +999,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">2370071</da_tavola>
 <totale name="Totale">7164589</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Toscana"</regione>
@@ -909,6 +1009,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">275551</da_tavola>
 <totale name="Totale">3025044</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Umbria"</regione>
@@ -918,6 +1019,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">94000</da_tavola>
 <totale name="Totale">741000</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Marche"</regione>
@@ -927,6 +1029,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">435489</da_tavola>
 <totale name="Totale">956004</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Lazio"</regione>
@@ -936,6 +1039,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">313476</da_tavola>
 <totale name="Totale">1524396</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Abruzzo"</regione>
@@ -945,6 +1049,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">2477200</da_tavola>
 <totale name="Totale">3899270</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Molise"</regione>
@@ -954,6 +1059,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">187500</da_tavola>
 <totale name="Totale">249540</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Campania"</regione>
@@ -963,6 +1069,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">922264</da_tavola>
 <totale name="Totale">1285597</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Puglia"</regione>
@@ -972,6 +1079,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">6129455</da_tavola>
 <totale name="Totale">8791925</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Basilicata"</regione>
@@ -981,6 +1089,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">29300</da_tavola>
 <totale name="Totale">86189</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Calabria"</regione>
@@ -990,6 +1099,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">266372</da_tavola>
 <totale name="Totale">427605</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Sicilia"</regione>
@@ -999,6 +1109,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1099545</da_tavola>
 <totale name="Totale">5334176</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Sardegna"</regione>
@@ -1008,6 +1119,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">139440</da_tavola>
 <totale name="Totale">803730</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Bolzano/Bozen"</regione>
@@ -1017,6 +1129,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">5100</da_tavola>
 <totale name="Totale">355510</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Trento"</regione>
@@ -1026,6 +1139,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">3973</da_tavola>
 <totale name="Totale">857518</totale>
 </row>
+
 <row>
 <anno name="Anno">"2016"</anno>
 <regione name="Regione">"Italia"</regione>
@@ -1035,6 +1149,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">16761884</da_tavola>
 <totale name="Totale">51615461</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Piemonte"</regione>
@@ -1044,15 +1159,17 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">213010</da_tavola>
 <totale name="Totale">2042630</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
-<regione name="Regione">"Valle d'Aosta/VallÃ©e d'Aoste"</regione>
+<regione name="Regione">"Valle d&apos;Aosta/Vallée d&apos;Aoste"</regione>
 <codice name="codice">"02"</codice>
 <d_o_c__e_d_o_c_g_ name="D.O.C. e D.O.C.G.">9100</d_o_c__e_d_o_c_g_>
 <i_g_t_ name="I.G.T.">0</i_g_t_>
 <da_tavola name="Da tavola">4000</da_tavola>
 <totale name="Totale">13100</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Lombardia"</regione>
@@ -1062,6 +1179,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">139197</da_tavola>
 <totale name="Totale">1201767</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Trentino-Alto Adige"</regione>
@@ -1071,6 +1189,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">7887</da_tavola>
 <totale name="Totale">1029369</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Veneto"</regione>
@@ -1080,6 +1199,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">514384</da_tavola>
 <totale name="Totale">9721055</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Friuli-Venezia Giulia"</regione>
@@ -1089,6 +1209,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">429724</da_tavola>
 <totale name="Totale">1639060</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Liguria"</regione>
@@ -1098,6 +1219,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">27063</da_tavola>
 <totale name="Totale">66620</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Emilia-Romagna"</regione>
@@ -1107,6 +1229,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">1889108</da_tavola>
 <totale name="Totale">5646042</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Toscana"</regione>
@@ -1116,6 +1239,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">222969</da_tavola>
 <totale name="Totale">1944351</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Umbria"</regione>
@@ -1125,6 +1249,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">91392</da_tavola>
 <totale name="Totale">644366</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Marche"</regione>
@@ -1134,6 +1259,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">388452</da_tavola>
 <totale name="Totale">859508</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Lazio"</regione>
@@ -1143,6 +1269,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">232280</da_tavola>
 <totale name="Totale">1060940</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Abruzzo"</regione>
@@ -1152,6 +1279,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">2247094</da_tavola>
 <totale name="Totale">3604493</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Molise"</regione>
@@ -1161,6 +1289,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">187500</da_tavola>
 <totale name="Totale">247858</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Campania"</regione>
@@ -1170,6 +1299,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">886711</da_tavola>
 <totale name="Totale">1213134</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Puglia"</regione>
@@ -1179,6 +1309,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">6703691</da_tavola>
 <totale name="Totale">9042902</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Basilicata"</regione>
@@ -1188,6 +1319,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">33296</da_tavola>
 <totale name="Totale">90980</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Calabria"</regione>
@@ -1197,6 +1329,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">222342</da_tavola>
 <totale name="Totale">364458</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Sicilia"</regione>
@@ -1206,6 +1339,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">963626</da_tavola>
 <totale name="Totale">4754777</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Sardegna"</regione>
@@ -1215,6 +1349,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">89346</da_tavola>
 <totale name="Totale">442721</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Bolzano/Bozen"</regione>
@@ -1224,6 +1359,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">4300</da_tavola>
 <totale name="Totale">304900</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Trento"</regione>
@@ -1233,6 +1369,7 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">3587</da_tavola>
 <totale name="Totale">724469</totale>
 </row>
+
 <row>
 <anno name="Anno">"2017"</anno>
 <regione name="Regione">"Italia"</regione>
@@ -1242,4 +1379,5 @@ This XML file does not appear to have any style information associated with it. 
 <da_tavola name="Da tavola">15493072</da_tavola>
 <totale name="Totale">45630131</totale>
 </row>
+
 </rows>

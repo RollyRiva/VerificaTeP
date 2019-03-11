@@ -51,26 +51,26 @@ public class Vino {
         this.igt = igt;
     }
 
-    public String getDaTavola() {
+    public int getDaTavola() {
         return daTavola;
     }
 
-    public void setDaTavola(String daTavola) {
+    public void setDaTavola(int daTavola) {
         this.daTavola = daTavola;
     }
 
-    public String getTotale() {
+    public int getTotale() {
         return totale;
     }
 
-    public void setTotale(String totale) {
+    public void setTotale(int totale) {
         this.totale = totale;
     }
 
     public Vino() {
     }
 
-    public Vino(String anno, String regione, String codice, String doc, String igt, String daTavola, String totale) {
+    public Vino(String anno, String regione, String codice, String doc, String igt, int daTavola, int totale) {
         this.anno = anno;
         this.regione = regione;
         this.codice = codice;
@@ -89,6 +89,6 @@ public class Vino {
     private String codice;
     private String doc;
     private String igt;
-    private String daTavola;
-    private String totale;
+    private int daTavola;
+    private int totale;
 }

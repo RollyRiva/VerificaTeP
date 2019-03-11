@@ -28,7 +28,7 @@ public class Parser {
         document = builder.parse(filename);
         root = document.getDocumentElement();
         // generazione della lista degli elementi "libro"
-        nodelist = root.getElementsByTagName("row");
+        nodelist = root.getElementsByTagName("row");       
         if (nodelist != null && nodelist.getLength() > 0) {
             for (int i = 0; i < nodelist.getLength(); i++) {
                 element = (Element)nodelist.item(i);
@@ -41,13 +41,13 @@ public class Parser {
 
     private Vino getVino(Element element) {
         Vino v;
-        String anno=getTextValue(element);
-        String regione=getTextValue(element);
-        String codice=getTextValue(element);
-        String doc=getTextValue(element);
-        String igt=getTextValue(element);
-        String daTavola=getTextValue(element);
-        String totale=getTextValue(element);
+        String anno=getTextValue(element,"anno");
+        String regione=getTextValue(element,"regione");
+        String codice=getTextValue(element,"codice");
+        String doc=getTextValue(element,"d_o_c__e_d_o_c_g_");
+        String igt=getTextValue(element,"i_g_t_");
+        int daTavola=getIntValue(element,"da_tavola");
+        int totale=getIntValue(element,"totale");
         v = new Vino(anno,regione,codice,doc,igt,daTavola,totale);
         return v;
     }
@@ -59,16 +59,26 @@ public class Parser {
             value = element.getFirstChild().getNodeValue();
         }
         return value;
+    }    
+    
+    private String getTextValue(Element element, String tag) {
+        String value = null;
+        NodeList nodelist;
+        nodelist = element.getElementsByTagName(tag);
+        if (nodelist != null && nodelist.getLength() > 0) {
+            value = nodelist.item(0).getFirstChild().getNodeValue();
+        }
+        return value;
     }
     
     // restituisce il valore intero dell’elemento figlio specificato
     private int getIntValue(Element element, String tag) {
-        return Integer.parseInt(getTextValue(element));
+        return Integer.parseInt(getTextValue(element, tag));
     }
     
     // restituisce il valore numerico dell’elemento figlio specificato
     private float getFloatValue(Element element, String tag) {
-        return Float.parseFloat(getTextValue(element));
+        return Float.parseFloat(getTextValue(element, tag));
     }
     
 }

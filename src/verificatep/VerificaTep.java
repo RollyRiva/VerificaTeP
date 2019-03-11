@@ -22,7 +22,11 @@ public class VerificaTep {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String patheth="Link.xml";
+        String year="";
+        String regione="";
+        Scanner scanner=new Scanner(System.in);
+        boolean controllo=true;
+        String patheth="vini1.xml";
         List vini = null;
         Parser dom = new Parser();
         try {
@@ -30,12 +34,44 @@ public class VerificaTep {
         } catch (ParserConfigurationException | SAXException | IOException exception) {
             System.out.println("Errore!");
         }
-        // iterazione della lista e visualizzazione degli oggetti
-        System.out.println("Numero di libri: " + vini.size());
-        Iterator iterator = vini.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next().toString());
+        while(controllo=true){
+        System.out.println("menu=");
+        System.out.println("1) Chiedere all’utente anno e regione per visualizzare tutte le informazioni presenti.");
+        System.out.println("2) Chiedere all’utente l’anno , visualizzare il totale di Vino da tavola prodotto in italia.");
+        System.out.println("3) In tutto il documento quale regione ha prodotto piu’ I.G.T.");
+        System.out.println("4) Quale regione ,in tutto il documento ha il Totale Maggiore");
+        System.out.println("0) esci");
+        int risposta=scanner.nextInt();
+        switch(risposta){
+            case 0:
+                controllo=false;
+                break;
+            case 1:
+                System.out.println("dammi anno");
+                year=scanner.next();
+                System.out.println("dammi regione");
+                regione=scanner.next();
+                
+                break;
+            case 2:
+                System.out.println("dammi anno");
+                year=scanner.next();
+                break;
+            case 3:
+                controllo=false;
+                break;
+            case 4:
+                controllo=false;
+                break;
         }
+        }
+        //iterazione della lista e visualizzazione degli oggetti
+//        System.out.println("Numero di Vini: " + vini.size());
+//        Iterator iterator = vini.iterator();
+//        while (iterator.hasNext()) {
+//            System.out.println(iterator.next().toString());
+//        }
+        
     }
     
 }
