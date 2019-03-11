@@ -6,6 +6,7 @@
 package verificatep;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
@@ -22,12 +23,14 @@ public class VerificaTep {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int totale=0;
+        int igt=0;
         String year="";
         String regione="";
         Scanner scanner=new Scanner(System.in);
         boolean controllo=true;
-        String patheth="vini1.xml";
-        List vini = null;
+        String patheth="vini.xml";
+        ArrayList<Vino> vini=null;
         Parser dom = new Parser();
         try {
             vini = dom.parseDocument(patheth);
@@ -51,17 +54,26 @@ public class VerificaTep {
                 year=scanner.next();
                 System.out.println("dammi regione");
                 regione=scanner.next();
-                
+                for(int i=0;i<vini.size();i++){
+                    if(vini.get(i).getAnno().equals(year)&&vini.get(i).getRegione().equals(regione)){
+                        System.out.println(vini.get(i).toString());
+                    }
+                }
                 break;
             case 2:
                 System.out.println("dammi anno");
                 year=scanner.next();
+                for(int i=0;i<vini.size();i++){
+                    if(vini.get(i).getAnno().equals(year)){
+                        totale=totale+vini.get(i).getTotale();
+                    }
+                }
+                System.out.println(totale);
                 break;
             case 3:
-                controllo=false;
+                
                 break;
             case 4:
-                controllo=false;
                 break;
         }
         }

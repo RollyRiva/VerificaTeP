@@ -8,30 +8,33 @@ import org.xml.sax.SAXException;
 
 public class Parser {
 
-    private List vini;
+    private ArrayList vini;
 
     public Parser() {
         vini = new ArrayList();
     }
 
-    public List parseDocument(String filename)
+    public ArrayList parseDocument(String filename)
             throws ParserConfigurationException, SAXException, IOException {
         DocumentBuilderFactory factory;
         DocumentBuilder builder;
         Document document;
         Element root, element;
-        NodeList nodelist;
+        NodeList nodelist,nodelist1;
         Vino vino;
         // creazione dell’albero DOM dal documento XML
         factory = DocumentBuilderFactory.newInstance();
         builder = factory.newDocumentBuilder();
         document = builder.parse(filename);
         root = document.getDocumentElement();
-        // generazione della lista degli elementi "libro"
-        nodelist = root.getElementsByTagName("row");       
-        if (nodelist != null && nodelist.getLength() > 0) {
-            for (int i = 0; i < nodelist.getLength(); i++) {
-                element = (Element)nodelist.item(i);
+        // generazione della lista degli elementi "vini"
+        
+        nodelist = root.getElementsByTagName("rows");
+        element=(Element)nodelist.item(0);
+        nodelist1 = element.getElementsByTagName("row");
+        if (nodelist1 != null && nodelist1.getLength() > 0) {
+            for (int i = 0; i < nodelist1.getLength(); i++) {
+                element = (Element)nodelist1.item(i);
                 Vino l = getVino(element);
                 vini.add(l);
             }
@@ -45,7 +48,7 @@ public class Parser {
         String regione=getTextValue(element,"regione");
         String codice=getTextValue(element,"codice");
         String doc=getTextValue(element,"d_o_c__e_d_o_c_g_");
-        String igt=getTextValue(element,"i_g_t_");
+        int igt=getIntValue(element,"i_g_t_");
         int daTavola=getIntValue(element,"da_tavola");
         int totale=getIntValue(element,"totale");
         v = new Vino(anno,regione,codice,doc,igt,daTavola,totale);

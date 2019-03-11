@@ -43,11 +43,11 @@ public class Vino {
         this.doc = doc;
     }
 
-    public String getIgt() {
+    public int getIgt() {
         return igt;
     }
 
-    public void setIgt(String igt) {
+    public void setIgt(int igt) {
         this.igt = igt;
     }
 
@@ -70,7 +70,7 @@ public class Vino {
     public Vino() {
     }
 
-    public Vino(String anno, String regione, String codice, String doc, String igt, int daTavola, int totale) {
+    public Vino(String anno, String regione, String codice, String doc, int igt, int daTavola, int totale) {
         this.anno = anno;
         this.regione = regione;
         this.codice = codice;
@@ -88,7 +88,7 @@ public class Vino {
     private String regione;
     private String codice;
     private String doc;
-    private String igt;
+    private int igt;
     private int daTavola;
     private int totale;
 }
